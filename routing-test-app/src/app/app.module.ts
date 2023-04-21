@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AnimalsComponentComponent } from './animals-component/animals-component.component';
 import { FruitsComponentComponent } from './fruits-component/fruits-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GenericComponent } from './generic/generic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AnimalsComponentComponent,
-    FruitsComponentComponent
+    FruitsComponentComponent,
+    GenericComponent
   ],
   imports: [
     BrowserModule,
